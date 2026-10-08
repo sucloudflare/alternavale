@@ -1,40 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AlternaVale — README</title>
-<style>
-  :root { --bg:#000; --fg:#e8e8ef; --muted:#9a9aab; --neon:#ff2d55; --peri:#a5b4fc; --card:#0d0d12; --line:#2a1016; }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 860px; margin: 0 auto; padding: 48px 20px 64px; }
-  header { text-align:center; padding-bottom: 32px; border-bottom: 1px solid var(--line); }
-  h1 { font: 700 clamp(40px,9vw,72px)/1 "Pirata One", Georgia, serif; margin:0 0 12px; color:#fff; text-shadow: 0 0 18px rgba(255,45,85,.6); letter-spacing:.02em; }
-  .tag { color:var(--peri); margin:0 0 20px; }
-  .badges { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
-  .badge { border:1px solid var(--neon); color:var(--neon); border-radius:999px; padding:2px 12px; font-size:13px; }
-  h2 { font: 700 28px/1.2 "Pirata One", Georgia, serif; color:#fff; margin:44px 0 12px; }
-  h2::before { content:"✦ "; color:var(--neon); }
-  a { color:var(--peri); }
-  code { background:var(--card); border:1px solid var(--line); border-radius:4px; padding:1px 6px; font-size:.9em; color:#ffb3c2; }
-  pre { background:var(--card); border:1px solid var(--line); border-left:3px solid var(--neon); border-radius:6px; padding:14px 16px; overflow-x:auto; }
-  pre code { background:none; border:0; padding:0; color:var(--fg); }
-  .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:12px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
-  .card b { color:#fff; }
-  .wrap { overflow-x:auto; }
-  table { border-collapse:collapse; width:100%; }
-  th, td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--line); }
-  th { color:var(--neon); font-weight:600; }
-  ul { padding-left: 20px; }
-  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); text-align:center; color:var(--muted); font-size:14px; }
-</style>
-</head>
-<body>
-<main>
-  <header>
-    <h1>AlternaVale</h1>
+
+  <h1>AlternaVale</h1>
     <p class="tag">Mais que um rolê, uma comunidade — Vale do São Francisco.</p>
     <div class="badges">
       <span class="badge">Next.js 16</span>
